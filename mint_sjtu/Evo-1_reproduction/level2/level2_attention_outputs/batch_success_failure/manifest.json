@@ -1,0 +1,130 @@
+[
+  {
+    "suite": "libero_10",
+    "task": 1,
+    "episode": 1,
+    "status": "success",
+    "prompt": "put both the alphabet soup and the tomato sauce in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task1_episode1.mp4"
+  },
+  {
+    "suite": "libero_10",
+    "task": 1,
+    "episode": 2,
+    "status": "success",
+    "prompt": "put both the alphabet soup and the tomato sauce in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task1_episode2.mp4"
+  },
+  {
+    "suite": "libero_10",
+    "task": 3,
+    "episode": 6,
+    "status": "fail",
+    "prompt": "turn on the stove and put the moka pot on it",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task3_episode6.mp4"
+  },
+  {
+    "suite": "libero_10",
+    "task": 3,
+    "episode": 10,
+    "status": "fail",
+    "prompt": "turn on the stove and put the moka pot on it",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task3_episode10.mp4"
+  },
+  {
+    "suite": "libero_goal",
+    "task": 1,
+    "episode": 1,
+    "status": "success",
+    "prompt": "open the middle drawer of the cabinet",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task1_episode1.mp4"
+  },
+  {
+    "suite": "libero_goal",
+    "task": 1,
+    "episode": 2,
+    "status": "success",
+    "prompt": "open the middle drawer of the cabinet",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task1_episode2.mp4"
+  },
+  {
+    "suite": "libero_goal",
+    "task": 2,
+    "episode": 4,
+    "status": "fail",
+    "prompt": "put the bowl on the stove",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task2_episode4.mp4"
+  },
+  {
+    "suite": "libero_goal",
+    "task": 4,
+    "episode": 4,
+    "status": "fail",
+    "prompt": "open the top drawer and put the bowl inside",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task4_episode4.mp4"
+  },
+  {
+    "suite": "libero_object",
+    "task": 1,
+    "episode": 1,
+    "status": "success",
+    "prompt": "pick up the alphabet soup and place it in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task1_episode1.mp4"
+  },
+  {
+    "suite": "libero_object",
+    "task": 1,
+    "episode": 2,
+    "status": "success",
+    "prompt": "pick up the alphabet soup and place it in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task1_episode2.mp4"
+  },
+  {
+    "suite": "libero_object",
+    "task": 3,
+    "episode": 2,
+    "status": "fail",
+    "prompt": "pick up the salad dressing and place it in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task3_episode2.mp4"
+  },
+  {
+    "suite": "libero_object",
+    "task": 6,
+    "episode": 7,
+    "status": "fail",
+    "prompt": "pick up the tomato sauce and place it in the basket",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task6_episode7.mp4"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": 1,
+    "episode": 1,
+    "status": "success",
+    "prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode1.mp4"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": 1,
+    "episode": 2,
+    "status": "success",
+    "prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode2.mp4"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": 1,
+    "episode": 6,
+    "status": "fail",
+    "prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode6.mp4"
+  },
+  {
+    "suite": "libero_spatial",
+    "task": 2,
+    "episode": 5,
+    "status": "fail",
+    "prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+    "video": "/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task2_episode5.mp4"
+  }
+]

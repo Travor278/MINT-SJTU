@@ -1,0 +1,38 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and caches
+.env
+.venv/
+venv/
+env/
+hf_cache/
+.cache/
+
+# Model weights and checkpoints
+checkpoints/
+**/checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+
+# Generated media and bulky experiment artifacts
+*.mp4
+*.avi
+*.mov
+**/video_log_file/
+/level2_attention_outputs/
+**/run.log

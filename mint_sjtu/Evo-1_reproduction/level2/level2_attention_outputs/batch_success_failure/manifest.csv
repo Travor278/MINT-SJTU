@@ -1,0 +1,17 @@
+suite,task,episode,status,prompt,video,output_dir
+libero_10,1,1,success,put both the alphabet soup and the tomato sauce in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task1_episode1.mp4,libero_10_task01_ep01_success
+libero_10,1,2,success,put both the alphabet soup and the tomato sauce in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task1_episode2.mp4,libero_10_task01_ep02_success
+libero_10,3,6,fail,turn on the stove and put the moka pot on it,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task3_episode6.mp4,libero_10_task03_ep06_fail
+libero_10,3,10,fail,turn on the stove and put the moka pot on it,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_10/task3_episode10.mp4,libero_10_task03_ep10_fail
+libero_goal,1,1,success,open the middle drawer of the cabinet,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task1_episode1.mp4,libero_goal_task01_ep01_success
+libero_goal,1,2,success,open the middle drawer of the cabinet,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task1_episode2.mp4,libero_goal_task01_ep02_success
+libero_goal,2,4,fail,put the bowl on the stove,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task2_episode4.mp4,libero_goal_task02_ep04_fail
+libero_goal,4,4,fail,open the top drawer and put the bowl inside,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_goal/task4_episode4.mp4,libero_goal_task04_ep04_fail
+libero_object,1,1,success,pick up the alphabet soup and place it in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task1_episode1.mp4,libero_object_task01_ep01_success
+libero_object,1,2,success,pick up the alphabet soup and place it in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task1_episode2.mp4,libero_object_task01_ep02_success
+libero_object,3,2,fail,pick up the salad dressing and place it in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task3_episode2.mp4,libero_object_task03_ep02_fail
+libero_object,6,7,fail,pick up the tomato sauce and place it in the basket,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_object/task6_episode7.mp4,libero_object_task06_ep07_fail
+libero_spatial,1,1,success,pick up the black bowl between the plate and the ramekin and place it on the plate,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode1.mp4,libero_spatial_task01_ep01_success
+libero_spatial,1,2,success,pick up the black bowl between the plate and the ramekin and place it on the plate,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode2.mp4,libero_spatial_task01_ep02_success
+libero_spatial,1,6,fail,pick up the black bowl between the plate and the ramekin and place it on the plate,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task1_episode6.mp4,libero_spatial_task01_ep06_fail
+libero_spatial,2,5,fail,pick up the black bowl next to the ramekin and place it on the plate,/home/Travor/work/Evo-1/LIBERO_evaluation/video_log_file/Evo1_libero_all/libero_spatial/task2_episode5.mp4,libero_spatial_task02_ep05_fail

@@ -1,0 +1,182 @@
+2026-04-23 23:50:10,738 [INFO] ===========================Start task suite libero_spatial========================
+2026-04-23 23:50:36,898 [INFO] ===========================Start task suite libero_spatial========================
+2026-04-23 23:54:11,880 [INFO] ===========================Start task suite libero_spatial========================
+2026-04-23 23:54:16,173 [INFO]
+========= Start task1: pick up the black bowl between the plate and the ramekin and place it on the plate =========
+2026-04-23 23:54:39,312 [INFO] Task 0 | Episode 1: ✅ Success
+2026-04-23 23:54:39,312 [INFO] ========= Task 1 Summary: 1/1 Successful =========
+2026-04-23 23:54:40,898 [INFO]
+========= Start task2: pick up the black bowl next to the ramekin and place it on the plate =========
+2026-04-23 23:55:06,789 [INFO] Task 1 | Episode 1: ✅ Success
+2026-04-23 23:55:06,789 [INFO] ========= Task 2 Summary: 1/1 Successful =========
+2026-04-23 23:55:08,309 [INFO]
+========= Start task3: pick up the black bowl from table center and place it on the plate =========
+2026-04-23 23:55:34,984 [INFO] Task 2 | Episode 1: ✅ Success
+2026-04-23 23:55:34,984 [INFO] ========= Task 3 Summary: 1/1 Successful =========
+2026-04-23 23:55:36,665 [INFO]
+========= Start task4: pick up the black bowl on the cookie box and place it on the plate =========
+2026-04-23 23:56:00,380 [INFO] Task 3 | Episode 1: ✅ Success
+2026-04-23 23:56:00,380 [INFO] ========= Task 4 Summary: 1/1 Successful =========
+2026-04-23 23:56:01,817 [INFO]
+========= Start task5: pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate =========
+2026-04-23 23:57:13,101 [INFO] Task 4 | Episode 1: ❌ Fail
+2026-04-23 23:57:13,101 [INFO] ========= Task 5 Summary: 0/1 Successful =========
+2026-04-23 23:57:14,523 [INFO]
+========= Start task6: pick up the black bowl on the ramekin and place it on the plate =========
+2026-04-23 23:57:38,272 [INFO] Task 5 | Episode 1: ✅ Success
+2026-04-23 23:57:38,273 [INFO] ========= Task 6 Summary: 1/1 Successful =========
+2026-04-23 23:57:39,565 [INFO]
+========= Start task7: pick up the black bowl next to the cookie box and place it on the plate =========
+2026-04-23 23:58:04,756 [INFO] Task 6 | Episode 1: ✅ Success
+2026-04-23 23:58:04,756 [INFO] ========= Task 7 Summary: 1/1 Successful =========
+2026-04-23 23:58:06,174 [INFO]
+========= Start task8: pick up the black bowl on the stove and place it on the plate =========
+2026-04-23 23:58:34,519 [INFO] Task 7 | Episode 1: ✅ Success
+2026-04-23 23:58:34,519 [INFO] ========= Task 8 Summary: 1/1 Successful =========
+2026-04-23 23:58:35,954 [INFO]
+========= Start task9: pick up the black bowl next to the plate and place it on the plate =========
+2026-04-23 23:58:59,636 [INFO] Task 8 | Episode 1: ✅ Success
+2026-04-23 23:58:59,637 [INFO] ========= Task 9 Summary: 1/1 Successful =========
+2026-04-23 23:59:01,166 [INFO]
+========= Start task10: pick up the black bowl on the wooden cabinet and place it on the plate =========
+2026-04-23 23:59:29,945 [INFO] Task 9 | Episode 1: ✅ Success
+2026-04-23 23:59:29,945 [INFO] ========= Task 10 Summary: 1/1 Successful =========
+2026-04-23 23:59:29,945 [INFO]
+========= Overall Task Summary =========
+2026-04-23 23:59:29,945 [INFO] ✅ Total Successful Episodes: 9/10
+2026-04-23 23:59:29,945 [INFO] 📊 Average Steps: 7.00
+2026-04-23 23:59:29,967 [INFO] ===========================Start task suite libero_object========================
+2026-04-23 23:59:31,686 [INFO]
+========= Start task1: pick up the alphabet soup and place it in the basket =========
+2026-04-23 23:59:56,625 [INFO] Task 0 | Episode 1: ✅ Success
+2026-04-23 23:59:56,625 [INFO] ========= Task 1 Summary: 1/1 Successful =========
+2026-04-23 23:59:57,857 [INFO]
+========= Start task2: pick up the cream cheese and place it in the basket =========
+2026-04-24 00:00:23,944 [INFO] Task 1 | Episode 1: ✅ Success
+2026-04-24 00:00:23,944 [INFO] ========= Task 2 Summary: 1/1 Successful =========
+2026-04-24 00:00:25,170 [INFO]
+========= Start task3: pick up the salad dressing and place it in the basket =========
+2026-04-24 00:00:47,787 [INFO] Task 2 | Episode 1: ✅ Success
+2026-04-24 00:00:47,787 [INFO] ========= Task 3 Summary: 1/1 Successful =========
+2026-04-24 00:00:49,113 [INFO]
+========= Start task4: pick up the bbq sauce and place it in the basket =========
+2026-04-24 00:01:11,718 [INFO] Task 3 | Episode 1: ✅ Success
+2026-04-24 00:01:11,718 [INFO] ========= Task 4 Summary: 1/1 Successful =========
+2026-04-24 00:01:12,924 [INFO]
+========= Start task5: pick up the ketchup and place it in the basket =========
+2026-04-24 00:01:37,631 [INFO] Task 4 | Episode 1: ✅ Success
+2026-04-24 00:01:37,631 [INFO] ========= Task 5 Summary: 1/1 Successful =========
+2026-04-24 00:01:38,822 [INFO]
+========= Start task6: pick up the tomato sauce and place it in the basket =========
+2026-04-24 00:02:03,995 [INFO] Task 5 | Episode 1: ✅ Success
+2026-04-24 00:02:03,995 [INFO] ========= Task 6 Summary: 1/1 Successful =========
+2026-04-24 00:02:05,228 [INFO]
+========= Start task7: pick up the butter and place it in the basket =========
+2026-04-24 00:02:35,264 [INFO] Task 6 | Episode 1: ✅ Success
+2026-04-24 00:02:35,264 [INFO] ========= Task 7 Summary: 1/1 Successful =========
+2026-04-24 00:02:36,550 [INFO]
+========= Start task8: pick up the milk and place it in the basket =========
+2026-04-24 00:03:00,401 [INFO] Task 7 | Episode 1: ✅ Success
+2026-04-24 00:03:00,402 [INFO] ========= Task 8 Summary: 1/1 Successful =========
+2026-04-24 00:03:01,553 [INFO]
+========= Start task9: pick up the chocolate pudding and place it in the basket =========
+2026-04-24 00:03:29,655 [INFO] Task 8 | Episode 1: ✅ Success
+2026-04-24 00:03:29,655 [INFO] ========= Task 9 Summary: 1/1 Successful =========
+2026-04-24 00:03:30,851 [INFO]
+========= Start task10: pick up the orange juice and place it in the basket =========
+2026-04-24 00:04:01,049 [INFO] Task 9 | Episode 1: ✅ Success
+2026-04-24 00:04:01,049 [INFO] ========= Task 10 Summary: 1/1 Successful =========
+2026-04-24 00:04:01,049 [INFO]
+========= Overall Task Summary =========
+2026-04-24 00:04:01,049 [INFO] ✅ Total Successful Episodes: 10/10
+2026-04-24 00:04:01,049 [INFO] 📊 Average Steps: 10.60
+2026-04-24 00:04:01,071 [INFO] ===========================Start task suite libero_goal========================
+2026-04-24 00:04:02,328 [INFO]
+========= Start task1: open the middle drawer of the cabinet =========
+2026-04-24 00:04:27,491 [INFO] Task 0 | Episode 1: ✅ Success
+2026-04-24 00:04:27,491 [INFO] ========= Task 1 Summary: 1/1 Successful =========
+2026-04-24 00:04:28,789 [INFO]
+========= Start task2: put the bowl on the stove =========
+2026-04-24 00:04:49,239 [INFO] Task 1 | Episode 1: ✅ Success
+2026-04-24 00:04:49,239 [INFO] ========= Task 2 Summary: 1/1 Successful =========
+2026-04-24 00:04:50,421 [INFO]
+========= Start task3: put the wine bottle on top of the cabinet =========
+2026-04-24 00:05:10,579 [INFO] Task 2 | Episode 1: ✅ Success
+2026-04-24 00:05:10,580 [INFO] ========= Task 3 Summary: 1/1 Successful =========
+2026-04-24 00:05:11,829 [INFO]
+========= Start task4: open the top drawer and put the bowl inside =========
+2026-04-24 00:05:57,917 [INFO] Task 3 | Episode 1: ✅ Success
+2026-04-24 00:05:57,917 [INFO] ========= Task 4 Summary: 1/1 Successful =========
+2026-04-24 00:05:59,097 [INFO]
+========= Start task5: put the bowl on top of the cabinet =========
+2026-04-24 00:06:19,353 [INFO] Task 4 | Episode 1: ✅ Success
+2026-04-24 00:06:19,353 [INFO] ========= Task 5 Summary: 1/1 Successful =========
+2026-04-24 00:06:20,442 [INFO]
+========= Start task6: push the plate to the front of the stove =========
+2026-04-24 00:06:47,700 [INFO] Task 5 | Episode 1: ✅ Success
+2026-04-24 00:06:47,701 [INFO] ========= Task 6 Summary: 1/1 Successful =========
+2026-04-24 00:06:48,840 [INFO]
+========= Start task7: put the cream cheese in the bowl =========
+2026-04-24 00:07:11,814 [INFO] Task 6 | Episode 1: ✅ Success
+2026-04-24 00:07:11,814 [INFO] ========= Task 7 Summary: 1/1 Successful =========
+2026-04-24 00:07:12,921 [INFO]
+========= Start task8: turn on the stove =========
+2026-04-24 00:07:32,954 [INFO] Task 7 | Episode 1: ✅ Success
+2026-04-24 00:07:32,955 [INFO] ========= Task 8 Summary: 1/1 Successful =========
+2026-04-24 00:07:34,059 [INFO]
+========= Start task9: put the bowl on the plate =========
+2026-04-24 00:07:52,037 [INFO] Task 8 | Episode 1: ✅ Success
+2026-04-24 00:07:52,037 [INFO] ========= Task 9 Summary: 1/1 Successful =========
+2026-04-24 00:07:53,207 [INFO]
+========= Start task10: put the wine bottle on the rack =========
+2026-04-24 00:08:18,345 [INFO] Task 9 | Episode 1: ✅ Success
+2026-04-24 00:08:18,345 [INFO] ========= Task 10 Summary: 1/1 Successful =========
+2026-04-24 00:08:18,345 [INFO]
+========= Overall Task Summary =========
+2026-04-24 00:08:18,345 [INFO] ✅ Total Successful Episodes: 10/10
+2026-04-24 00:08:18,345 [INFO] 📊 Average Steps: 8.70
+2026-04-24 00:08:18,366 [INFO] ===========================Start task suite libero_10========================
+2026-04-24 00:08:19,887 [INFO]
+========= Start task1: put both the alphabet soup and the tomato sauce in the basket =========
+2026-04-24 00:09:31,813 [INFO] Task 0 | Episode 1: ✅ Success
+2026-04-24 00:09:31,813 [INFO] ========= Task 1 Summary: 1/1 Successful =========
+2026-04-24 00:09:33,321 [INFO]
+========= Start task2: put both the cream cheese box and the butter in the basket =========
+2026-04-24 00:10:19,601 [INFO] Task 1 | Episode 1: ✅ Success
+2026-04-24 00:10:19,602 [INFO] ========= Task 2 Summary: 1/1 Successful =========
+2026-04-24 00:10:20,908 [INFO]
+========= Start task3: turn on the stove and put the moka pot on it =========
+2026-04-24 00:11:02,016 [INFO] Task 2 | Episode 1: ✅ Success
+2026-04-24 00:11:02,016 [INFO] ========= Task 3 Summary: 1/1 Successful =========
+2026-04-24 00:11:02,943 [INFO]
+========= Start task4: put the black bowl in the bottom drawer of the cabinet and close it =========
+2026-04-24 00:11:42,264 [INFO] Task 3 | Episode 1: ✅ Success
+2026-04-24 00:11:42,264 [INFO] ========= Task 4 Summary: 1/1 Successful =========
+2026-04-24 00:11:44,798 [INFO]
+========= Start task5: put the white mug on the left plate and put the yellow and white mug on the right plate =========
+2026-04-24 00:12:26,703 [INFO] Task 4 | Episode 1: ✅ Success
+2026-04-24 00:12:26,703 [INFO] ========= Task 5 Summary: 1/1 Successful =========
+2026-04-24 00:12:28,118 [INFO]
+========= Start task6: pick up the book and place it in the back compartment of the caddy =========
+2026-04-24 00:12:56,505 [INFO] Task 5 | Episode 1: ✅ Success
+2026-04-24 00:12:56,505 [INFO] ========= Task 6 Summary: 1/1 Successful =========
+2026-04-24 00:12:57,850 [INFO]
+========= Start task7: put the white mug on the plate and put the chocolate pudding to the right of the plate =========
+2026-04-24 00:13:36,442 [INFO] Task 6 | Episode 1: ✅ Success
+2026-04-24 00:13:36,443 [INFO] ========= Task 7 Summary: 1/1 Successful =========
+2026-04-24 00:13:37,659 [INFO]
+========= Start task8: put both the alphabet soup and the cream cheese box in the basket =========
+2026-04-24 00:14:21,199 [INFO] Task 7 | Episode 1: ✅ Success
+2026-04-24 00:14:21,199 [INFO] ========= Task 8 Summary: 1/1 Successful =========
+2026-04-24 00:14:21,967 [INFO]
+========= Start task9: put both moka pots on the stove =========
+2026-04-24 00:15:50,339 [INFO] Task 8 | Episode 1: ✅ Success
+2026-04-24 00:15:50,339 [INFO] ========= Task 9 Summary: 1/1 Successful =========
+2026-04-24 00:15:51,443 [INFO]
+========= Start task10: put the yellow and white mug in the microwave and close it =========
+2026-04-24 00:16:35,200 [INFO] Task 9 | Episode 1: ✅ Success
+2026-04-24 00:16:35,200 [INFO] ========= Task 10 Summary: 1/1 Successful =========
+2026-04-24 00:16:35,200 [INFO]
+========= Overall Task Summary =========
+2026-04-24 00:16:35,200 [INFO] ✅ Total Successful Episodes: 10/10
+2026-04-24 00:16:35,200 [INFO] 📊 Average Steps: 20.30
