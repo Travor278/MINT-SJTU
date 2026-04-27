@@ -1,31 +1,23 @@
 # SJTU RA 申请材料
 
-上海交通大学两个组的论文调研、复现计划与 reading notes。
+赵波组（MINT-SJTU，上海交通大学）论文调研与复现记录。  
+方向：轻量 VLA、具身操作、真实机器人离线 RL。
 
 ---
 
-## VisionXLab（杨学组）
+## Evo-1 复现（Level 1–3 已完成）
 
-方向：遥感 VLM、视觉 token 高效化、具身智能、空间智能
+**Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment**  
+CVPR 2026 · [arXiv 2511.04555](https://arxiv.org/abs/2511.04555) · [GitHub](https://github.com/MINT-SJTU/Evo-1)
 
-| 文件 | 内容 |
-|---|---|
-| [visionxlab/GeoEyes_reading_note.md](visionxlab/GeoEyes_reading_note.md) | GeoEyes（arXiv'26）reading note：on-demand visual focusing + AdaZoom-GRPO |
-| [visionxlab/InterleaveVLA_reading_note.md](visionxlab/InterleaveVLA_reading_note.md) | Interleave-VLA（ICLR'26）reading note：交错图文指令 + 三种 VLA 失败模式分析 |
-| [visionxlab/InterleaveVLA_demo_plan.md](visionxlab/InterleaveVLA_demo_plan.md) | Interleave-VLA 复现计划（Level 0–4） |
-
-论文 PDF：[GeoEyes](visionxlab/GeoEyes_2602.14201.pdf) · [Interleave-VLA](visionxlab/InterleaveVLA_2505.02152.pdf)
-
----
-
-## MINT-SJTU（赵波组）
-
-方向：轻量 VLA、具身操作、真实机器人离线 RL
+LIBERO 三个 seed 均值 **93.5% ± 1.3%**（官方 94.8%），MetaWorld MT50 **80.7%** difficulty average（官方 80.6%）。
 
 | 文件 | 内容 |
 |---|---|
-| [mint_sjtu/README.md](mint_sjtu/README.md) | Evo-1 复现计划（Level 0–4）+ 其他可 PR 项目（RoboClaw / Evo-RL / LeRobot-U-Arm） |
-| [mint_sjtu/Evo1_reading_note.md](mint_sjtu/Evo1_reading_note.md) | Evo-1（CVPR'26）reading note：两阶段训练 + 语义对齐保持机制 |
-| [mint_sjtu/Evo1_demo_plan.md](mint_sjtu/Evo1_demo_plan.md) | Evo-1 详细复现步骤 |
+| [mint_sjtu/README.md](mint_sjtu/README.md) | 复现记录总览（环境、命令、各 level 结果） |
+| [mint_sjtu/Evo1_reading_note.md](mint_sjtu/Evo1_reading_note.md) | Evo-1 reading note：两阶段训练 + 语义对齐保持机制 |
+| [mint_sjtu/Evo1_demo_plan.md](mint_sjtu/Evo1_demo_plan.md) | 完整复现记录（结果、attention 分析、问题说明） |
+| [mint_sjtu/Evo1_source_map.md](mint_sjtu/Evo1_source_map.md) | 源码导览 |
+| [mint_sjtu/Evo-1_reproduction/](mint_sjtu/Evo-1_reproduction/) | 产物归档（日志、视频、attention 图） |
 
-论文 PDF：[Evo-1](mint_sjtu/Evo1_2511.04555.pdf)
+论文 PDF：[mint_sjtu/Evo1_2511.04555.pdf](mint_sjtu/Evo1_2511.04555.pdf)

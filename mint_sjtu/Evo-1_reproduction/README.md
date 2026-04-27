@@ -1,56 +1,66 @@
-# Evo-1 Reproduction Sync
+# Evo-1 复现文件夹
 
-This folder is a D-drive snapshot of the Evo-1 Level 1 reproduction and Level 2 attention-probe work produced in WSL `Ubuntu2204`.
+WSL Ubuntu 22.04 里跑出来的产物同步到 D 盘，方便在 Windows 侧查看和归档。
 
-## Contents
+## 文件结构
 
 - `reports/`
-  - `LEVEL1_REPRODUCTION_REPORT.md`: Level 1 environment, commands, and formal LIBERO results.
-  - `LEVEL2_ATTENTION_NOTES.md`: Level 2 hook target, capture method, and generated artifact notes.
+  - `LEVEL1_REPRODUCTION_REPORT.md`：Level 1 环境、命令、LIBERO 完整结果
+  - `LEVEL2_ATTENTION_NOTES.md`：Level 2 hook 目标、捕获方法、产物说明
 - `code/`
-  - Minimal patched files and new probe scripts copied from `/home/Travor/work/Evo-1`.
-  - This is a snapshot for review and archiving, not a standalone full checkout.
+  - 从 WSL `/home/Travor/work/Evo-1` 里 patch 过的文件和新写的 probe 脚本
+  - 这是快照，不是完整的独立仓库，不能单独运行
 - `level1/`
-  - `log_file/`: LIBERO evaluation logs.
-  - `video_log_file/Evo1_libero_all/`: formal Level 1 videos.
-  - `video_log_file/Evo1_libero_all_smoke_20260424_001635/`: smoke-test videos.
+  - `log_file/`：LIBERO 评估日志（三个 seed）
+  - `video_log_file/Evo1_libero_all/`：Level 1 正式视频
+  - `video_log_file/Evo1_libero_all_smoke_20260424_001635/`：smoke test 视频
 - `level2/level2_attention_outputs/`
-  - Single-case and success/failure batch attention captures.
-  - Includes manifests, per-case metadata, attention tensors, overlays, and summary panels.
+  - 单 case 和 success/failure batch 的 attention 产物
+  - 包括 manifests、per-case metadata、attention tensors、overlay 图和汇总面板
+- `figures/`：Level 2 最终展示图
 
-## Level 1 Result
+## Level 1 结果
 
-Formal run: 400 episodes.
+跑了 3 个 seed（42/43/44），共 1200 episodes。
 
-- `libero_spatial`: 88 / 100
-- `libero_object`: 97 / 100
-- `libero_goal`: 94 / 100
-- `libero_10`: 91 / 100
-- Overall: 370 / 400 = 92.5%
+seed=42 单次完整结果：
 
-## Level 2 Status
+| Suite | 成功率 |
+|---|---:|
+| `libero_spatial` | 88 / 100 |
+| `libero_object` | 97 / 100 |
+| `libero_goal` | 94 / 100 |
+| `libero_10` | 91 / 100 |
+| **Overall** | **370 / 400 = 92.5%** |
 
-The attention hook target was confirmed as:
+三个 seed 均值：**93.5% ± 1.3%**（官方 94.8%）
 
-```text
+## Level 2 说明
+
+hook 挂在：
+
+```python
 language_model.model.layers.13.self_attn
 ```
 
-Evo-1 keeps the first 14 InternVL3/Qwen language layers, so the paper-style "layer 14" target corresponds to zero-based index `13` in the retained module list.
+Evo-1 保留了 InternVL3 / Qwen 的前 14 层，所以论文里说的"layer 14"在代码里是零起始的 index 13。FlashAttention 不返回 attention weights，probe 时要关掉。
 
-The batch attention panel is available at:
+batch 对比面板（success vs failure）存在：
 
-```text
+```
 level2/level2_attention_outputs/batch_success_failure/level2_success_failure_panel.png
 ```
 
-## Large Files Not Copied Here
+## Level 3 结果
 
-Model checkpoints were not copied into this git working tree to avoid turning the repo into a multi-GB artifact store.
+MetaWorld MT50，500 episodes，难度分组平均 **80.7%**（官方 80.6%）。
 
-Existing relevant locations:
+## 注意：checkpoint 没有同步进来
 
-- WSL Evo-1 checkout: `/home/Travor/work/Evo-1`
-- WSL LIBERO checkpoint: `/home/Travor/work/Evo-1/checkpoints/libero`
-- WSL InternVL3 local model: `/home/Travor/work/Evo-1/checkpoints/internvl3-1b`
-- Windows HF staging cache: `D:\Code\Work\SJTU_hf`
+模型文件太大，没有放进这个 git 工作区，实际位置：
+
+- WSL Evo-1 仓库：`/home/Travor/work/Evo-1`
+- LIBERO checkpoint：`/home/Travor/work/Evo-1/checkpoints/libero`
+- MetaWorld checkpoint：`/home/Travor/work/Evo-1/checkpoints/metaworld`
+- InternVL3 本地模型：`/home/Travor/work/Evo-1/checkpoints/internvl3-1b`
+- Windows HF 缓存：`D:\Code\Work\SJTU_hf`
