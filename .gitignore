@@ -19,6 +19,7 @@ venv/
 env/
 hf_cache/
 .cache/
+/hf_downloads/
 
 # Model weights and checkpoints
 checkpoints/
@@ -36,3 +37,9 @@ checkpoints/
 **/video_log_file/
 /level2_attention_outputs/
 **/run.log
+
+# Local transfer/staging bundles
+/autodl_upload/
+/downloads/
+/tmp/
+/temp/

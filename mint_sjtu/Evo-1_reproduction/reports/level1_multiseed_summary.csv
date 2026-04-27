@@ -1,0 +1,16 @@
+seed,suite,success,total,rate,log
+42,overall,370,400,0.925000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_all.txt
+42,libero_spatial,88,100,0.880000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_all.txt
+42,libero_object,97,100,0.970000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_all.txt
+42,libero_goal,94,100,0.940000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_all.txt
+42,libero_10,91,100,0.910000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_all.txt
+43,overall,380,400,0.950000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed43.txt
+43,libero_spatial,93,100,0.930000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed43.txt
+43,libero_object,98,100,0.980000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed43.txt
+43,libero_goal,95,100,0.950000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed43.txt
+43,libero_10,94,100,0.940000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed43.txt
+44,overall,372,400,0.930000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed44.txt
+44,libero_spatial,86,100,0.860000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed44.txt
+44,libero_object,97,100,0.970000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed44.txt
+44,libero_goal,96,100,0.960000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed44.txt
+44,libero_10,93,100,0.930000,mint_sjtu\Evo-1_reproduction\level1\log_file\Evo1_libero_seed44.txt

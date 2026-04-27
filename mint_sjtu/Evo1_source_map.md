@@ -1,12 +1,12 @@
 # Evo-1 源码导览
 
-本地仓库位置：`D:\SJTU\mint_sjtu\Evo-1`
+本地仓库位置：`D:\Code\Work\SJTU\mint_sjtu\Evo-1`
 
 GitHub 仓库：`https://github.com/MINT-SJTU/Evo-1`
 
 当前分支：`main`
 
-当前克隆到的最新提交：`d27d17a update readme`
+当前克隆到的提交：`d27d17a update readme`
 
 ## 总体结构
 

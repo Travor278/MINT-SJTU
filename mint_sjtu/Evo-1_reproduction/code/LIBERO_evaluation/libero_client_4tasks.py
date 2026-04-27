@@ -22,11 +22,11 @@ class Args():
     horizon = 14
     max_steps = [25,25, 25, 95]
     SERVER_URL = os.environ.get("EVO1_SERVER_URL", "ws://127.0.0.1:9000")
-    ckpt_name = f"Evo1_libero_all"
+    ckpt_name = os.environ.get("EVO1_LIBERO_RUN_NAME", "Evo1_libero_all")
     task_suites = ["libero_spatial", "libero_object", "libero_goal", "libero_10"]
     log_file = f"./log_file/{ckpt_name}.txt"
     num_episodes = int(os.environ.get("EVO1_LIBERO_EPISODES", "10"))
-    SEED = 42
+    SEED = int(os.environ.get("EVO1_LIBERO_SEED", "42"))
 
 
 
@@ -118,7 +118,7 @@ async def run(SERVER_URL: str, max_steps: int = None, num_episodes: int = None, 
     total_episodes = 0
     total_steps = 0
 
-    async with websockets.connect(SERVER_URL) as ws:
+    async with websockets.connect(SERVER_URL, ping_interval=None, ping_timeout=None, max_size=100_000_000) as ws:
         log.info(f"===========================Start task suite {task_suite_name}========================")
 
         for task_id in range(num_tasks_in_suite):
@@ -188,6 +188,7 @@ async def run(SERVER_URL: str, max_steps: int = None, num_episodes: int = None, 
                         except ValueError as ve:
                             print(f"❌ the action is not valid: {ve}")
                             episode_done = False
+                            max_step = max_steps
                             break
 
 
